@@ -12,5 +12,6 @@ public class MyReceiver extends BroadcastReceiver {
         // TODO: This method is called when the BroadcastReceiver is receiving
         // an Intent broadcast.
         Log.d("test","hahaha");
+        Log.d("test","hahahaha");
     }
 }

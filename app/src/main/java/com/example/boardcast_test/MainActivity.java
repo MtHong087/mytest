@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent("111");
                 sendBroadcast(intent);
-               // Toast.makeText(MainActivity.this,"click",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this,"click",Toast.LENGTH_SHORT).show();
                 SharedPreferences pre=getSharedPreferences("data",MODE_PRIVATE);
                 String name=pre.getString("name","");
                 int age=pre.getInt("age",0);
